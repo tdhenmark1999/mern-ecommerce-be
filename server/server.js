@@ -13,7 +13,7 @@ mongoose.connect(dbUri, { useNewUrlParser: true, useUnifiedTopology: true })
     .catch((error) => console.error('MongoDB connection error:', error));
 
 app.use(cors({
-    origin: '*',  // Allow only this origin to make requests
+    origin: 'https://mern-ecommerce-fe-af286ecaf8c7.herokuapp.com/',  // Allow only this origin to make requests
     methods: ['GET', 'POST', 'PUT', 'DELETE'],  // Allow these methods
     allowedHeaders: ['Content-Type', 'Authorization']  // Allow these headers
 }));
