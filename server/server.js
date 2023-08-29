@@ -7,7 +7,7 @@ import cartRoutes from './routes/cart.js';
 
 const app = express();
 
-const dbUri = 'mongodb://localhost:27017/mongosh?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.5';
+const dbUri = 'mongodb+srv://torrenomark1999:<dhenmark2019>@mini-ecommerce.jdrdml9.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(dbUri, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch((error) => console.error('MongoDB connection error:', error));
