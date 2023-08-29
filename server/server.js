@@ -26,7 +26,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/cart', cartRoutes);
 // Start the server
-const PORT = 3001;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+// const PORT = 3001;
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}`);
+// });
